@@ -1,1 +1,8 @@
-streamlit
+numpy 
+pandas 
+sklearn
+streamlit 
+nltk
+wordcloud 
+matplotlib
+PIL 
