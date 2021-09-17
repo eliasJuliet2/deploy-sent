@@ -20,7 +20,7 @@ st.markdown('It accomplishes this by combining machine learning and natural lang
 st.subheader('Electoral Debate tweets')
 @st.cache
 def load_data(nrows):
-    debate_tweets = pd.read_csv('/Sentiment.csv',nrows=nrows)
+    debate_tweets = pd.read_csv('Sentiment.csv',nrows=nrows)
     return debate_tweets
 load_data_state = st.text('Loading data.......')
 debate_tweets= load_data(1156)
