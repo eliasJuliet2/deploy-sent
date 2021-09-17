@@ -13,7 +13,7 @@ nltk.download('stopwords')
 
 st.title('Online Voting and Intelligence System')
 st.subheader('Sentiment Analysis')
-img = Image.open('https://github.com/eliasJuliet2/deploy-sent/blob/main/nlp_sentiment.jpg')
+img = Image.open('nlp_sentiment.jpg')
 st.image(img)
 st.markdown('Python sentiment analysis is a methodology for analyzing a piece of text to discover the sentiment hidden within it.')
 st.markdown('It accomplishes this by combining machine learning and natural language processing (NLP). Sentiment analysis allows you to examine the feelings expressed in a piece of text.')
